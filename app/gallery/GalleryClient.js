@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiX, FiChevronLeft, FiChevronRight, FiZoomIn } from 'react-icons/fi';
 import { galleryImages } from '@/lib/data';
